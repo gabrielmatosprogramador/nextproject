@@ -1,15 +1,11 @@
-import { Button } from "@/components/ui/button";
+
 
 export default function Home() {
   return (
-    <main>
+    <main className="sm:ml-14 p-4">
       <h1 className="text-2xl">
         Pagina inicial do dashboard
-        
       </h1>
-      <Button>
-          Clique aqui
-      </Button>
     </main>
   );
 }
